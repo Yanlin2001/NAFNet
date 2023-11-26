@@ -38,6 +38,8 @@ datasets:
     type: PairedImageDataset
     dataroot_gt: /kaggle/input/sub-div2k-blur/SUB2/SUB2/DIV2K_valid_HR_BW
     dataroot_lq: /kaggle/input/sub-div2k-blur/SUB2/SUB2/DIV2K_valid_HR_BW_blurred
+
+    filename_tmpl: '{}'
     io_backend:
       type: disk
 
