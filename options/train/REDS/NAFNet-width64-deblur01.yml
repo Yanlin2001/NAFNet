@@ -34,10 +34,10 @@ datasets:
     prefetch_mode: ~
 
   val:
-    name: reds-val300-test
-    type: PairedImageDataset
-    dataroot_gt: /kaggle/input/sub-div2k-blur/SUB2/SUB2/DIV2K_valid_HR_BW
-    dataroot_lq: /kaggle/input/sub-div2k-blur/SUB2/SUB2/DIV2K_valid_HR_BW_blurred
+    name: ~
+    type: ~
+    dataroot_gt: ~
+    dataroot_lq: ~
 
     filename_tmpl: '{}'
     io_backend:
